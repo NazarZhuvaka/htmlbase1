@@ -1,0 +1,62 @@
+@import "./reset.css";
+
+.welcome{
+    height: 100vh;
+
+    text-align: center;
+    align-items: center;
+
+    color: #926239;
+    background-image: url("./img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    position: relative;
+}
+
+.welcome__btn{
+    color: #926239;
+    padding: 10px 16px;
+    border: 1px solid #926239;
+    border-radius: 10px;
+    background:none;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+
+}
+
+.welcome__text{
+    margin: 10px 0 24px;
+}
+
+.welcome__info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.welcome__btn:hover{
+    color: white;
+    background-color: #926239;
+}
+
+.info-section{
+    color: #926239;
+    font-size: 0;
+    p {
+        padding: 24px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+.info__text{
+    display: inline-block;
+    max-width: calc(100% / 3);
+}
+.info__text-color{
+    color: white;
+    background-color: #926239;
+}
